@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function getRandomDisplayP3Color() {
@@ -55,7 +54,6 @@ function createSquiggle(color) {
 function App() {
      const [angle, setAngle] = useState(getRandomInt(180,240));
 
-     const hueArray = [ 204, 300, 27, 120 ]
 
  const [shapes, setShapes] = useState([]);
   const [uniformColor, setUniformColor] = useState(false); // Toggle state for uniform color
